@@ -127,3 +127,27 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+Data/ACSST5Y2019.S2506-2021-07-28T192039.xlsx
+Data/ASPUS.xls
+Data/cities_crosswalk.csv
+Data/City_time_series.csv
+Data/County_time_series.csv
+Data/CountyCrossWalk_Zillow.csv
+Data/DataDictionary.csv
+Data/histtab19.xlsx
+Data/Metro_time_series.csv
+Data/mfu_squarefeet_cust.xls
+Data/Neighborhood_time_series.csv
+Data/newressales.xls
+Data/quarterly_sales_cust.xls
+Data/soldmetro_cust.xls
+Data/soldsquarefeet_cust.xls
+Data/State_time_series.csv
+Data/statistic_id184902_homeownership-rate-in-the-us-1990-2020.xlsx
+Data/statistic_id184904_homeowner-vacancy-rates-in-the-us-1990-2020.xlsx
+Data/statistic_id199360_us-housing_-case-shiller-national-home-price-index-2000-2020.xlsx
+Data/statistic_id226144_us-existing-home-sales-2005-2022.xlsx
+Data/statistic_id240991_us-house-prices_-average-sales-price-of-new-homes-sold-1965-2021.xlsx
+Data/statistic_id375865_volume-of-homeowner-equity-in-the-us-1960-2020.xlsx
+Data/statistic_id398370_us-housing_-case-shiller-national-home-price-index-2017-2021.xlsx
+Data/Zip_time_series.csv
