@@ -151,3 +151,16 @@ Data/statistic_id240991_us-house-prices_-average-sales-price-of-new-homes-sold-1
 Data/statistic_id375865_volume-of-homeowner-equity-in-the-us-1960-2020.xlsx
 Data/statistic_id398370_us-housing_-case-shiller-national-home-price-index-2017-2021.xlsx
 Data/Zip_time_series.csv
+kaggle.json
+Data/City_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_month.csv
+Data/County_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_month.csv
+Data/Metro_invt_for_sale_uc_sfrcondo_month.csv
+Data/Metro_invt_For_Sale_uc_sfrcondo_sm_month.csv
+Data/Metro_median_days_oz_pending_uc_sfrcondo_month.csv
+Data/Metro_Median_List_Price_uc_sfrcondo_month.csv
+Data/Metro_median_sale_price_uc_sfrcondo_month.csv
+Data/Metro_MedianListPrice_uc_sfrcondo_sm_month.csv
+Data/Metro_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_month.csv
+Data/Neighborhood_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_month.csv
+Data/State_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_month.csv
+Data/Zip_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_month.csv
