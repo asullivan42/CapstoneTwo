@@ -194,3 +194,4 @@ Data/Zillow Dataset/State_time_series.csv
 Data/Zillow Dataset/State_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_month.csv
 Data/Zillow Dataset/Zip_time_series.csv
 Data/Zillow Dataset/Zip_zhvi_uc_sfrcondo_tier_0.33_0.67_sm_sa_month.csv
+*.csv
