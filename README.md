@@ -19,7 +19,8 @@ Population data, Neighborhood price history are different variables I'd like to 
 Methods I'm planning on using are Random Forest, Gradient Boosting and Linear Regression.
 ## 3. Data Cleaning 
 
-[Data Cleaning Report](https://drive.google.com/open?id=195wcooDtT2XhfpRXREWmLovm8XZPNymy)
+[Data Report](https://docs.google.com/presentation/d/1XjOCc1YImvwCIbHPW67iTHKAstYETcm9/edit?usp=sharing&ouid=104857759570776830159&rtpof=true&sd=true)
+[Data Cleaning](./Capstone_Two_Part1_Data_Cleaning.ipynb)
 
 In a collaborative-filtering system there are only three columns that matter to apply the machine learning algorithms: the user, the item, and the explicit rating (see the example matrix above). I also had to clean & normalize all the reference information (location, difficulty grade, etc.) to the route so that my user could get a useful and informative recommendation.
 
@@ -31,7 +32,7 @@ In a collaborative-filtering system there are only three columns that matter to 
 
 ## 4. EDA
 
-[EDA Report](https://colab.research.google.com/drive/14AKVsyXy7yJSxBjmEBFyz7kEX7e9ioM_)
+[EDA Report](./Capstone_Two_Part2_EDA.ipynb)
 
 * In the EDA phase I looked at how the data was related to the features in both datasets.  I found that there were a number of features which had a positive correlation to Sale Price.  These included neighborhood price, Ground floor living area and overall quality.  
 
@@ -44,8 +45,6 @@ In a collaborative-filtering system there are only three columns that matter to 
 
 
 ## 5. Algorithms & Machine Learning
-
-[ML Notebook](https://colab.research.google.com/drive/1kAlvwwJnGcdCAJD8oFokT3gtJF2UnyZP)
 
 I chose to try regression models because my output was a continous variable (Sales Price).  First thing I tried was to do some principal component analysis.  Unfortunately the analysis could only at best capture 44% of the variability and that took over 20 principal components.
 
@@ -69,7 +68,7 @@ I did attempt to do some optomization of the algorithm with the Bayseian method 
 
 ## 6. Which Dataset to choose?
 
-[More details about this process...](https://colab.research.google.com/drive/1kAlvwwJnGcdCAJD8oFokT3gtJF2UnyZP)
+[Final Notebook](./Capstone_Two_Part3_Final)
 
 After choosing the random forest algorithm, I tested the accuracy of all three different filtered datasets. The dataset which I used LabelEncoder performed the most accurate predictions. However random forest also preformed equally well on the dummy variables dataset.  I went with the LabelEncoder dataset because it preformed better on most of the other algorithms as well as random forest, and it was a smaller dataset having less features.
 
@@ -77,11 +76,13 @@ After choosing the random forest algorithm, I tested the accuracy of all three d
 
 ## 7. Predictions
 
-[Final Predictions Notebook](https://colab.research.google.com/drive/1vLkoW_4SYessy_igmJxlVz_jEPlgJ06v)
+
 
 In the final predictions notebook, I created a pipeline for managing the test data as part of the Kaggle competition and generated my final submission for the contest:
 
+![](./Ranforest.png)
 
+This was my first entry into the Kaggle competitions and I earned a score of 0.14816.
 
 ## 8. Future Improvements
 
@@ -92,4 +93,4 @@ In the final predictions notebook, I created a pipeline for managing the test da
 
 ## 9. Credits
 
-Thanks to David Arango PhD. my Springboard mentor Olivia Ongpin my friend and realtor who gave me advice in what to look at for home buying and my family for supporting my work on this project and transitioning over to being a full time DataScientist
+Thanks to David Arango PhD. my Springboard mentor and Olivia Ongpin my friend and realtor who gave me advice in what to look at for home buying.  Of course my family for supporting my work on this project and transitioning over to being a full time DataScientist
