@@ -93,4 +93,4 @@ This was my first entry into the Kaggle competitions and I earned a score of 0.1
 
 ## 9. Credits
 
-Thanks to David Arango PhD. my Springboard mentor and Olivia Ongpin my friend and realtor who gave me advice in what to look at for home buying.  Of course my family for supporting my work on this project and transitioning over to being a full time DataScientist
+Thanks to David Arango PhD. my Springboard mentor and Olivia Ongpin my friend and realtor who gave me advice in what to look at for home buying.  Of course I'd also like to thank my family for supporting my work on this project and transitioning over to being a full time DataScientist
