@@ -36,9 +36,9 @@ In a collaborative-filtering system there are only three columns that matter to 
 
 * In the EDA phase I looked at how the data was related to the features in both datasets.  I found that there were a number of features which had a positive correlation to Sale Price.  These included neighborhood price, Ground floor living area and overall quality.  
 
-![](./Price_Regression.png)
-![](./Price_RegressionNeighborhood_SalePrice.png)
-![](./Price_Regression.png)
+![](./heatmap.png)
+![](./Neighborhood_LR.png)
+![](./Price_BuildType_LR.png)
 
 
 * I began testing several algorithms against both datasets
@@ -52,7 +52,7 @@ Next I tested out a number of machine learning algorithms.
 The algorithms I testes were:
 * Linear Regression 	       88.48%
 * KNN Regression	           74.37%
-* Random Forest	               97.96%
+<font color='green'>* Random Forest	               97.96%</font>
 * Gradient Boost Regression	   83.90%
 * CatBoost Regression	       93.00%
 
@@ -64,7 +64,7 @@ The algorithms I testes were:
 
 I did attempt to do some optomization of the algorithm with the Bayseian method of hyperperameter tuning, but kept getting a pandas error within the optomization code which couldn't deal with some boolians generated wihtin.  CatBoosting on the otherhand did show some improvement over the other methods, but not better than the initial Random Forest regressor.  It did allow me to determint the top features which contributed to the price.
 
-![](./Category_Importance.png)
+![](./Category_Importance2.png)
 
 ## 6. Which Dataset to choose?
 
