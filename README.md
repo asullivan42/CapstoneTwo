@@ -19,8 +19,8 @@ Population data, Neighborhood price history are different variables I'd like to 
 Methods I'm planning on using are Random Forest, Gradient Boosting and Linear Regression.
 ## 3. Data Cleaning 
 
-[Data Report](https://docs.google.com/presentation/d/1XjOCc1YImvwCIbHPW67iTHKAstYETcm9/edit?usp=sharing&ouid=104857759570776830159&rtpof=true&sd=true)
-[Data Cleaning](./Capstone_Two_Part1_Data_Cleaning.ipynb)
+[Data Report](https://docs.google.com/presentation/d/1XjOCc1YImvwCIbHPW67iTHKAstYETcm9/edit?usp=sharing&ouid=104857759570776830159&rtpof=true&sd=true)<br>
+[Data Cleaning Notebook](./Capstone_Two_Part1_Data_Cleaning.ipynb)
 
 In a collaborative-filtering system there are only three columns that matter to apply the machine learning algorithms: the user, the item, and the explicit rating (see the example matrix above). I also had to clean & normalize all the reference information (location, difficulty grade, etc.) to the route so that my user could get a useful and informative recommendation.
 
@@ -32,13 +32,13 @@ In a collaborative-filtering system there are only three columns that matter to 
 
 ## 4. EDA
 
-[EDA Report](./Capstone_Two_Part2_EDA.ipynb)
+[EDA Notebook](./Capstone_Two_Part2_EDA.ipynb)
 
 * In the EDA phase I looked at how the data was related to the features in both datasets.  I found that there were a number of features which had a positive correlation to Sale Price.  These included neighborhood price, Ground floor living area and overall quality.  
 
-![](./heatmap.png)
-![](./Neighborhood_LR.png)
-![](./Price_BuildType_LR.png)
+![](./figures/heatmap.png)
+![](./figures/Neighborhood_LR.png)
+![](./figures/Price_BuildType_LR.png)
 
 
 * I began testing several algorithms against both datasets
@@ -64,7 +64,7 @@ The algorithms I testes were:
 
 I did attempt to do some optomization of the algorithm with the Bayseian method of hyperperameter tuning, but kept getting a pandas error within the optomization code which couldn't deal with some boolians generated wihtin.  CatBoosting on the otherhand did show some improvement over the other methods, but not better than the initial Random Forest regressor.  It did allow me to determint the top features which contributed to the price.
 
-![](./Category_Importance2.png)
+![](./figures/Category_Importance2.png)
 
 ## 6. Which Dataset to choose?
 
@@ -80,7 +80,7 @@ After choosing the random forest algorithm, I tested the accuracy of all three d
 
 In the final predictions notebook, I created a pipeline for managing the test data as part of the Kaggle competition and generated my final submission for the contest:
 
-![](./Ranforest.png)
+![](./figures/Ranforest.png)
 
 This was my first entry into the Kaggle competitions and I earned a score of 0.14816.
 
@@ -88,7 +88,7 @@ This was my first entry into the Kaggle competitions and I earned a score of 0.1
 
 * In the future, I would love to spend more time trying to capture some of the other possible influences in the areas from other data sources.  For instance population statistics for each of the neighborhoods and I found that there was a vast difference in how many sales occured in each neighborhood which I believe will be an important influencer on home sales prices.
 
-![](./Neighborhood_Sales_Counts.png)
+![](./figures/Neighborhood_Sales_Counts.png)
 
 
 ## 9. Credits
